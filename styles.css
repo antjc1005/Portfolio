@@ -1,3 +1,45 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color:goldenrod;
+    background-color:blanchedalmond;
+}
+#header{
+    text-align:center;
+}
+#sectiontitles {
+    color:#149691;
+    text-align:center;
+    font-weight:bolder;
+    font-style: underline;
+    font-family: 'Copperplate'/ 'Copperplate Gothic Light','sans-serif';
+    font-size: 300px;
+}
+.hero {
+    Margin: 0px, 50px, 0px, 50px;
+}
+p {
+    color: brown;
+    text-align: center;
+    font-weight: 600;
+    font-family:'Monaco', 'Lucida Console', monospace ;
+}
+
+ul {
+    color: brown;
+    text-align: center;
+    font-weight: 600;
+    font-family:'Monaco', 'Lucida Console', monospace ;
+}
+
+.linkimages {
+    flex: 30%;
+    align-items:center
+        
+}
+img {
+    width:30%;
 }
