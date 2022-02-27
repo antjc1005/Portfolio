@@ -2,6 +2,9 @@
 
 body {
     background-color:blanchedalmond;
+    display:flex;
+    flex-direction: column;
+    width:100%;
 }
 #header{
     font-weight: bold;
@@ -9,6 +12,13 @@ body {
     font-size: 36px;
     color:purple;
     display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    width: 100%;
+}
+header nav{
+    margin: 7px 0;
+    flex-wrap:wrap;
 }
 
 #sectiontitles {
@@ -17,12 +27,18 @@ body {
     font-weight:bolder;
     font-style: underline;
     font-family: 'Copperplate'/ 'Copperplate Gothic Light','sans-serif';
-    font-size: 200px;
+    font-size: 125px;
     background-color: yellowgreen;
+    max-width:100%;
 }
 .hero {
-    Margin: 0px, 50px, 0px, 50px;
-    padding-left: 450px;
+   display:flex;
+   justify-content: center;
+   width:100%;
+}
+.hero img{
+    width:100%;
+
 }
 p {
     color: brown;
@@ -30,25 +46,41 @@ p {
     font-weight: 600;
     font-family:'Monaco', 'Lucida Console', monospace ;
 }
-
+li{
+    margin: 15px;
+    
+}
 ul {
     color: brown;
     font-weight: 600;
     font-family:'Monaco', 'Lucida Console', monospace ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 .linkimages {
-    Margin: 0px, 50px, 0px, 50px;
-    padding-left: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.linkimages :hover{
-    height:110%;
-    width:110%;
+.linkimages:hover img{
+    height:70%;
+    width:70%;
 }
 
-img {
+/* img {
     width:100px;
     height: 150px;
     -ms-flex-align: center;
+} */
+#My-projects{ width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+width:100%;
 }
