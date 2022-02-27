@@ -1,7 +1,7 @@
 * {
     box-sizing:border-box;
-    padding: 0;
-    margin: 0;
+    padding:0.5px;
+    margin: 0.5px;
 }
 
 body {
@@ -16,10 +16,12 @@ body {
     font-weight:bolder;
     font-style: underline;
     font-family: 'Copperplate'/ 'Copperplate Gothic Light','sans-serif';
-    font-size: 300px;
+    font-size: 200px;
+    background-color: yellowgreen;
 }
 .hero {
     Margin: 0px, 50px, 0px, 50px;
+    padding-left: 450px;
 }
 p {
     color: brown;
@@ -36,10 +38,17 @@ ul {
 }
 
 .linkimages {
-    flex: 30%;
-    align-items:center
-        
+    Margin: 0px, 50px, 0px, 50px;
+    padding-left: 450px;
 }
+
+.linkimages :hover{
+    height:110%;
+    width:110%;
+}
+
 img {
-    width:30%;
+    width:100px;
+    height: 150px;
+    -ms-flex-align: center;
 }
